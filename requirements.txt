@@ -1,0 +1,9 @@
+TileStache
+Pillow
+modestmaps
+werkzeug
+gunicorn
+shapely
+eventlet
+mapnik
+boto
