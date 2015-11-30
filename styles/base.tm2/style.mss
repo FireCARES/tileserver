@@ -104,7 +104,7 @@ Map {
   [class='stream_intermittent'] { line-dasharray: 6,2,2,2; }
 }
 
-#districts[zoom>=12] {
+#districts[zoom>=11] {
     line-width: 1.5;
     line-color:  #cb0b0b;
     line-cap: round;
@@ -113,14 +113,22 @@ Map {
     line-comp-op: multiply;
 }
 
-#stations [zoom>=12]{
+#stations [zoom>=11]{
   marker-fill-opacity:1;
-  marker-allow-overlap: true;
+  marker-allow-overlap: false;
   marker-height: 14;
   marker-opacity: .7;
   marker-file:url('icon/fire-station-12-red.svg');
 }
 
+#hydrants[zoom>=16]{
+  marker-fill-opacity:1;
+  marker-line-width:0;
+  marker-allow-overlap: true;
+  marker-opacity: .9;
+  marker-height: 5;
+  marker-fill: #3D9970;
+}
 
 // Landcover
 #landcover {

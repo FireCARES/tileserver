@@ -306,19 +306,23 @@
             "source": "mapbox.mapbox-streets-v5"
         },
         {
-            "description": "",
-            "fields": {
-                "house_num": "House number",
-                "osm_id": "Unique OSM ID number"
-            },
+            "description": "Fire Districts",
+            "fields": {},
             "id": "districts",
             "source": "mbtiles"
         },
         {
-            "description": "",
+            "description": "Fire Hydrants",
             "fields": {
-                "name": "fire station name",
-                "osm_id": "Unique OSM ID number"
+                "name": "fire hydrants"
+            },
+            "id": "hydrants",
+            "source": "mbtiles"
+        },
+        {
+            "description": "Fire Stations",
+            "fields": {
+                "name": "fire station name"
             },
             "id": "stations",
             "source": "mbtiles"

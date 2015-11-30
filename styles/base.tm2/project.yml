@@ -11,9 +11,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -118.3315
-  - 34.1
-  - 13
+  - -118.3619
+  - 34.0689
+  - 12
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
@@ -34,6 +34,7 @@ layers:
   - admin
   - stations
   - districts
+  - hydrants
   - country_label_line
   - country_label
   - marine_label
